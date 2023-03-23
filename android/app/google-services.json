@@ -1,0 +1,238 @@
+{
+  "project_info": {
+    "project_number": "651189680177",
+    "project_id": "sponjob-97f63",
+    "storage_bucket": "sponjob-97f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651189680177:android:921da4c4bfcbe4b2c07d10",
+        "android_client_info": {
+          "package_name": "com.example.sponjobsadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651189680177-0ud2bic9137d8i1a820pb45l1b9sdnj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.employe.sponJob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651189680177:android:98e445b2aec1e29fc07d10",
+        "android_client_info": {
+          "package_name": "com.example.sponsjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651189680177-0ud2bic9137d8i1a820pb45l1b9sdnj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.employe.sponJob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651189680177:android:f1ca0962345b1e7ec07d10",
+        "android_client_info": {
+          "package_name": "com.solodev.sponemployer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651189680177-61r35on4k99q0ig3rlfeom381hkt7poe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solodev.sponemployer",
+            "certificate_hash": "65e6f43f74ff125b511e93b711f9ec21effcd6a8"
+          }
+        },
+        {
+          "client_id": "651189680177-jnno75kmc09dl9simlatn4ib9hnjs6vh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solodev.sponemployer",
+            "certificate_hash": "dfc8e545e256bf5b5db8571c37cdd80cd4c2e86d"
+          }
+        },
+        {
+          "client_id": "651189680177-m4iqah3qu18blefujs3vq7h1qd79uodl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.solodev.sponemployer",
+            "certificate_hash": "5f28869c2722cfc5a58057e3ab518a0936ab6312"
+          }
+        },
+        {
+          "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651189680177-0ud2bic9137d8i1a820pb45l1b9sdnj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.employe.sponJob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651189680177:android:046cf8c8e6fa38dac07d10",
+        "android_client_info": {
+          "package_name": "com.sponjob.employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651189680177-din741s9t8nga3g85j31rj81u83u8v6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sponjob.employee",
+            "certificate_hash": "3ae7887ca10fb23d8628ff8e074ad2d5d667c68e"
+          }
+        },
+        {
+          "client_id": "651189680177-lvvfu12bvm0lvk9p73qt26q194bk3a3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sponjob.employee",
+            "certificate_hash": "7e2f91756e06ca9ce6a5a7d4829b7d200a854e85"
+          }
+        },
+        {
+          "client_id": "651189680177-r07k05k6gsnp34rmqr8ds3ndo1aute0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sponjob.employee",
+            "certificate_hash": "5f28869c2722cfc5a58057e3ab518a0936ab6312"
+          }
+        },
+        {
+          "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651189680177-0ud2bic9137d8i1a820pb45l1b9sdnj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.employe.sponJob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651189680177:android:112cf974fe1afe7bc07d10",
+        "android_client_info": {
+          "package_name": "com.sponjobs.sponjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651189680177-s2hr8ieugm3v97tmnv8quc6i7go19e6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651189680177-0ud2bic9137d8i1a820pb45l1b9sdnj9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.employe.sponJob"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

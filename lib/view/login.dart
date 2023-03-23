@@ -23,11 +23,12 @@ class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController email = TextEditingController();
   final TextEditingController password = TextEditingController();
 
+
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
     var height = MediaQuery.of(context).size.height;
-
+    final userViewModel = Get.put(LoginViewModel());
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20.0),
@@ -102,10 +103,10 @@ class _LoginScreenState extends State<LoginScreen> {
                             () {
                           if (_key.currentState!.validate()){
                             print("email"+email.text.trim()+"password"+password.text.trim());
-                            // userViewModel.userSignUp(
-                            //     email.text.trim(),
-                            //     password.text.trim(),
-                            // )
+                            userViewModel.adminLogin(
+                                email.text.trim(),
+                                password.text.trim(),
+                            );
                           } else {
                             if (kDebugMode) {
                               print("please enter all fields.");
