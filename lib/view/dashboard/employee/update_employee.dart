@@ -54,7 +54,7 @@ class _UpdateEmployeeState extends State<UpdateEmployee> {
     debugPrint(data.id.toString());
   }
 
-  Future getImage(ImageSource source) async {
+  getImage(ImageSource source) async {
     final pickedFile = await _picker.getImage(source: source, imageQuality: 30);
     if (pickedFile != null && pickedFile.path != null) {
       file = File(pickedFile.path);

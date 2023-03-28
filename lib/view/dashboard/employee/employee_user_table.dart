@@ -145,13 +145,27 @@ class _EmployeeUserTableState extends State<EmployeeUserTable> {
                             InkWell(
                               onTap: ()async{
                                 debugPrint(doc.id);
-                                await FirebaseFirestore.instance.collection(FirebaseCollection.employee).doc(doc.id).update({
-                                  "isBanned":!doc["isBanned"]
-                                }).then((value)async{
-                                  getFlushBar(context, title: 'Employee ${doc['name']} is successfully ${!doc["isBanned"]?"banned":"unbanned"}.');
-                                }).onError((error, stackTrace) async{
-                                  getFlushBar(context,title: error.toString());
-                                });
+                                debugPrint("doc.data(): "+doc.data().toString());
+                                debugPrint("(doc.data()).containsKey(isBanned): "+ (doc.data()).containsKey("isBanned").toString());
+                                debugPrint(doc.data()["isBanned"].toString());
+                                if((doc.data()).containsKey("isBanned")){
+                                  await FirebaseFirestore.instance.collection(FirebaseCollection.employee).doc(doc.id).update({
+                                    "isBanned":!doc.data()["isBanned"]
+                                  }).then((value)async{
+                                    getFlushBar(context, title: 'Employee ${doc.data()['firstName']} ${doc.data()['lastName']}  is successfully ${!doc.data()["isBanned"]?"banned":"unbanned"}.');
+                                  }).onError((error, stackTrace) async{
+                                    getFlushBar(context,title: error.toString());
+                                  });
+                                }
+                                else{
+                                  await FirebaseFirestore.instance.collection(FirebaseCollection.employee).doc(doc.id).update({
+                                    "isBanned":true
+                                  }).then((value)async{
+                                    getFlushBar(context, title: 'Employee ${doc.data()['firstName']} ${doc.data()['lastName']} is successfully banned.');
+                                  }).onError((error, stackTrace) async{
+                                    getFlushBar(context,title: error.toString());
+                                  });
+                                }
                               },
                               child: const CircleAvatar(
                                 radius: 15,

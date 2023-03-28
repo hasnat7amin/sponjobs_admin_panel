@@ -132,13 +132,25 @@ class _EmployersUserTabelState extends State<EmployersUserTabel> {
                             InkWell(
                               onTap: ()async{
                                 debugPrint(doc.id);
-                                await FirebaseFirestore.instance.collection(FirebaseCollection.employers).doc(doc.id).update({
-                                  "isBanned":!doc["isBanned"]
-                                }).then((value){
-                                  getFlushBar(context, title: 'Employers ${doc["name"]} is successfully ${!doc["isBanned"]?"banned":"unbanned"}.');
-                                }).onError((error, stackTrace) async{
-                                  getFlushBar(context,title: error.toString());
-                                });
+                                if((doc.data()).containsKey("isBanned")){
+                                  await FirebaseFirestore.instance.collection(FirebaseCollection.employers).doc(doc.id).update({
+                                    "isBanned":!doc["isBanned"]
+                                  }).then((value)async{
+                                    getFlushBar(context, title: 'Employee ${doc['name']} is successfully ${!doc["isBanned"]?"banned":"unbanned"}.');
+                                  }).onError((error, stackTrace) async{
+                                    getFlushBar(context,title: error.toString());
+                                  });
+                                }
+                                else{
+                                  await FirebaseFirestore.instance.collection(FirebaseCollection.employers).doc(doc.id).update({
+                                    "isBanned":true
+                                  }).then((value)async{
+                                    getFlushBar(context, title: 'Employee ${doc['name']} is successfully banned.');
+                                  }).onError((error, stackTrace) async{
+                                    getFlushBar(context,title: error.toString());
+                                  });
+                                }
+
                               },
                               child: const CircleAvatar(
                                 radius: 15,

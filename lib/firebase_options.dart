@@ -44,42 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBw3-b2JCUyr5UHdZPly3DluIGIen_pYI8',
-    appId: '1:651189680177:web:27ed242ed238f47cc07d10',
-    messagingSenderId: '651189680177',
-    projectId: 'sponjob-97f63',
-    authDomain: 'sponjob-97f63.firebaseapp.com',
-    storageBucket: 'sponjob-97f63.appspot.com',
-    measurementId: 'G-47PJGENFFN',
+    apiKey: 'AIzaSyBf5byENul3BdHAPCk0z-9pRNaOHnBm460',
+    appId: '1:187419406357:web:f91bdc90dbb39d8f5d1e1c',
+    messagingSenderId: '187419406357',
+    projectId: 'sponjobtest',
+    authDomain: 'sponjobtest.firebaseapp.com',
+    storageBucket: 'sponjobtest.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCw36_iRs7-W4f-X1q9BUCwAO_hqisd6l0',
-    appId: '1:651189680177:android:921da4c4bfcbe4b2c07d10',
-    messagingSenderId: '651189680177',
-    projectId: 'sponjob-97f63',
-    storageBucket: 'sponjob-97f63.appspot.com',
+    apiKey: 'AIzaSyA3IRmXP4IpSLBMKOlxE3CwtTZvCeelGhM',
+    appId: '1:187419406357:android:1055cb4dd888a1ea5d1e1c',
+    messagingSenderId: '187419406357',
+    projectId: 'sponjobtest',
+    storageBucket: 'sponjobtest.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDnqwK52UtHbg7tUP64LKIO6WeMtMdzKXE',
-    appId: '1:651189680177:ios:3768b11b3e95c54cc07d10',
-    messagingSenderId: '651189680177',
-    projectId: 'sponjob-97f63',
-    storageBucket: 'sponjob-97f63.appspot.com',
-    androidClientId: '651189680177-61r35on4k99q0ig3rlfeom381hkt7poe.apps.googleusercontent.com',
-    iosClientId: '651189680177-udpmkj0okcjongkh4tbmlkokkgdbhkn5.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCgWO7kv93TgyiClxzNlnErfnialfIqAFk',
+    appId: '1:187419406357:ios:7d2f76405bbbd5ca5d1e1c',
+    messagingSenderId: '187419406357',
+    projectId: 'sponjobtest',
+    storageBucket: 'sponjobtest.appspot.com',
+    androidClientId: '187419406357-cm4e92psbsrsi8gq1dp4j2ahvcv9d433.apps.googleusercontent.com',
+    iosClientId: '187419406357-j5c70sm6hv041fbtg8a3eng7i9896959.apps.googleusercontent.com',
     iosBundleId: 'com.example.sponjobsadmin',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDnqwK52UtHbg7tUP64LKIO6WeMtMdzKXE',
-    appId: '1:651189680177:ios:3768b11b3e95c54cc07d10',
-    messagingSenderId: '651189680177',
-    projectId: 'sponjob-97f63',
-    storageBucket: 'sponjob-97f63.appspot.com',
-    androidClientId: '651189680177-61r35on4k99q0ig3rlfeom381hkt7poe.apps.googleusercontent.com',
-    iosClientId: '651189680177-udpmkj0okcjongkh4tbmlkokkgdbhkn5.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCgWO7kv93TgyiClxzNlnErfnialfIqAFk',
+    appId: '1:187419406357:ios:7d2f76405bbbd5ca5d1e1c',
+    messagingSenderId: '187419406357',
+    projectId: 'sponjobtest',
+    storageBucket: 'sponjobtest.appspot.com',
+    androidClientId: '187419406357-cm4e92psbsrsi8gq1dp4j2ahvcv9d433.apps.googleusercontent.com',
+    iosClientId: '187419406357-j5c70sm6hv041fbtg8a3eng7i9896959.apps.googleusercontent.com',
     iosBundleId: 'com.example.sponjobsadmin',
   );
 }
